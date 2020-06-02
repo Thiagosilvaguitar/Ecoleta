@@ -1,0 +1,17 @@
+html{
+    font-family: 'roboto' , sans-serif;
+}
+/*box model
+modelo de caixa
+toda caixa tem largura, altura, espaçamentos, preenchimentos...
+*/
+header {
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+.content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
