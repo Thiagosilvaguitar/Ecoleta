@@ -19,9 +19,10 @@
                 <a href="http://google.com.br"><span></span>Voltar para home</a>
                 </header>   
                 <form action="">
-                <h1>Cadastro do ponto de coleta</h1>
-                <!--Fildset organiza varios campos-->
-                <fieldset>
+                
+                    <h1>Cadastro do ponto de coleta</h1>
+                  <!--Fildset organiza varios campos-->
+                   <fieldset>
                     <legend>
                         <h2>Dados da entidade</h2>
                     </legend>
@@ -29,6 +30,7 @@
                         <label for="name">Nome da entidade</label>
                         <input type="text" name="name">
                     </div>
+
                     <div class="field-group">
                         <div class="field">
                             <label for="address">Endereço</label>
@@ -40,17 +42,27 @@
                         </div>
                     </div>
 
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        <h2>Ìtens de coleta</h2>
-                    </legend>
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="state">Estado</label>
+                            <select name="uf" >
+                                <option value="">Selecione o Estado</option>
+                            </select>
+                        </div>
+                            <div class="field">
+                                <label for="city">Cidade</label>
+                                <select name="city"  disabled> <!--Disabled desabilita o campo de formulario até que o anteripr esteja selecionado-->
+                                    <option value="">Selecione a Cidade</option>
+                                </select>
+                                <input type="hidden" name= "state">
+                            </div>
+                        </div>
 
                 </fieldset>
-
                 <button type="submit">Cadastrar ponto de coleta</button>
 
                 </form>
     </div>  
+    <script src="Scripts/create-point.js"></script>
 </body>
 </html>
