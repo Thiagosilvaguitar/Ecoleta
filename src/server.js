@@ -96,7 +96,7 @@ server.post("/savepoint", (req,res) =>{
                     return console.log(err)
                 }
 
-                 const total = rows.length
+                 const total = rows.length 
 
                 //mostrar a página html com os dados do banco de dados
                 return res.render("search-results.html", { places: rows, total: total})
