@@ -91,7 +91,7 @@ server.post("/savepoint", (req,res) =>{
 
 
         //pegar os dados do banco de dados
-        db.all(`SELECT * FROM places WHERE CITY LIKE '%${search}%'`, function(err,rows){
+        db.all(`SELECT * FROM places WHERE state LIKE '%${search}%'`, function(err,rows){
                 if (err) {
                     return console.log(err)
                 }
