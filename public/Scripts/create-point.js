@@ -61,6 +61,7 @@ itemLi.classList.toggle("selected")
 
 const itemId = itemLi.dataset.id
 
+//console.log('ITEM ID: ' , itemId)
                
 
 // //verificar se existem itens selecionados
@@ -86,8 +87,11 @@ if(alreadySelected >= 0) {
     selectedItems.push(itemId)
 }
 
+//console.log('selectedItems: ' , selectedItems)
+
+//atualizar o campo escondido com os dados selecionados
 collectedItems.value = selectedItems
 }
 
 
-//atualizar o campo escondido com os dados selecionados
+
