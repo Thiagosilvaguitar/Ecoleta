@@ -1,38 +1,33 @@
-# Ecoleta
-♻️ Aplicação web para coleta de resíduos de forma eficiente.
-
-README.md
-icon_ecoleta
-
-O Ecoleta é um projeto (aplicação web) construído no Starter, parte da semana Next Level Week icon_nlw.
-
-A aplicação basea-se em um marketplace de coleta de resíduos, onde pessoas físicas e/ou jurídicas poderão cadastrar e/ou encontrar pontos de coleta em qualquer lugar do Brasil.
-
-Bibliotecas e tecnologias utilizadas:
-
-HTML;
-CSS;
-JavaScript;
-Node.JS;
-Git Bash;
-SQLite.
-Baseado nas API's de Localidade Cidades IBGE e Estados IBGE
-
-1ª Aula
-Foi trabalhado os primeiros conceitos de HTML e CSS, muito utilizado no front-end; first_and_second_steps
-
-2ª Aula
-Ainda trabalhando com HTML, CSS e inserindo JS, aprendemos a buscar cidades e estados (dados) em um database trazendo-os para a aplicação; aula2
-
-3ª Aula
-Continuou-se trabalhando os conceitos de HTML, CSS e JS de uma maneira mais aprofundada e encerrou-se a aula em 3 etapas concluidas; aula3
-
-4ª Aula
-Na aula 4, foi dia de começar a entender na prática como funciona o back-end. Conhecemos o node.js e criamos nosso servidor; aula4
-
-5ª Aula
-E para finalizar o projeto, importamos a dependência do SQLite para nossa aplicação e fizemos toda a configuração do db (banco de dados). aula5
-
-quem_ministrou Quem ministrou as aulas?
-
-As aulas foram ministradas pelo Mayk Brito da Rocketseat
+<article class="markdown-body entry-content container-lg" itemprop="text"><p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83677850-2cf1e200-a5b3-11ea-8d04-f91369115c62.png"><img src="https://user-images.githubusercontent.com/62728109/83677850-2cf1e200-a5b3-11ea-8d04-f91369115c62.png" alt="icon_ecoleta" style="max-width:100%;"></a></p>
+<p>O <strong>Ecoleta</strong> é um projeto (aplicação web) construído no <strong>Starter</strong>, parte da semana <strong>Next Level Week</strong> <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83677578-c076e300-a5b2-11ea-825c-bc31c88da1d2.png"><img src="https://user-images.githubusercontent.com/62728109/83677578-c076e300-a5b2-11ea-825c-bc31c88da1d2.png" alt="icon_nlw" style="max-width:100%;"></a>.</p>
+<p>A aplicação basea-se em um marketplace de coleta de resíduos, onde pessoas físicas e/ou jurídicas poderão cadastrar e/ou encontrar pontos de coleta em qualquer lugar do Brasil.</p>
+<p>Bibliotecas e tecnologias utilizadas:</p>
+<ul>
+<li>HTML;</li>
+<li>CSS;</li>
+<li>JavaScript;</li>
+<li>Nunjucks;</li>
+<li>Node.JS;</li>
+<li>Git Bash;</li>
+<li>SQLite.</li>
+</ul>
+<p>Baseado nas API's de Localidade <a href="https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet" rel="nofollow">Cidades IBGE</a> e <a href="https://servicodados.ibge.gov.br/api/v1/localidades/estados" rel="nofollow">Estados IBGE</a></p>
+<h2><a id="user-content-1ª-aula" class="anchor" aria-hidden="true" href="#1ª-aula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>1ª Aula</strong></h2>
+<p>Foi trabalhado os primeiros conceitos de HTML e CSS, muito utilizado no front-end;
+<a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83678452-2748cc00-a5b4-11ea-8c3b-7b11d47aaa07.jpg"><img src="https://user-images.githubusercontent.com/62728109/83678452-2748cc00-a5b4-11ea-8c3b-7b11d47aaa07.jpg" alt="first_and_second_steps" style="max-width:100%;"></a></p>
+<h2><a id="user-content-2ª-aula" class="anchor" aria-hidden="true" href="#2ª-aula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>2ª Aula</strong></h2>
+<p>Ainda trabalhando com HTML, CSS e inserindo JS, aprendemos a buscar cidades e estados (dados) em um database trazendo-os para a aplicação;
+<a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83678917-e43b2880-a5b4-11ea-84aa-b57b5bc7a2d7.png"><img src="https://user-images.githubusercontent.com/62728109/83678917-e43b2880-a5b4-11ea-84aa-b57b5bc7a2d7.png" alt="aula2" style="max-width:100%;"></a></p>
+<h2><a id="user-content-3ª-aula" class="anchor" aria-hidden="true" href="#3ª-aula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>3ª Aula</strong></h2>
+<p>Continuou-se trabalhando os conceitos de HTML, CSS e JS de uma maneira mais aprofundada e encerrou-se a aula em 3 etapas concluidas;
+<a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83678626-6d9e2b00-a5b4-11ea-8ad4-03c955dcad5a.jpg"><img src="https://user-images.githubusercontent.com/62728109/83678626-6d9e2b00-a5b4-11ea-8ad4-03c955dcad5a.jpg" alt="aula3" style="max-width:100%;"></a></p>
+<h2><a id="user-content-4ª-aula" class="anchor" aria-hidden="true" href="#4ª-aula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>4ª Aula</strong></h2>
+<p>Na aula 4, foi dia de começar a entender na prática como funciona o back-end. Conhecemos o node.js e criamos nosso servidor;
+<a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83796845-0a75cc80-a678-11ea-8137-0c0ac548ac99.jpg"><img src="https://user-images.githubusercontent.com/62728109/83796845-0a75cc80-a678-11ea-8137-0c0ac548ac99.jpg" alt="aula4" style="max-width:100%;"></a></p>
+<h2><a id="user-content-5ª-aula" class="anchor" aria-hidden="true" href="#5ª-aula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>5ª Aula</strong></h2>
+<p>E para finalizar o projeto, importamos a dependência do SQLite para nossa aplicação e fizemos toda a configuração do db (banco de dados).
+<a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83922344-8ba39100-a756-11ea-9abd-2aa39816d895.png"><img src="https://user-images.githubusercontent.com/62728109/83922344-8ba39100-a756-11ea-9abd-2aa39816d895.png" alt="aula5" style="max-width:100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/62728109/83679095-35e3b300-a5b5-11ea-940f-dc15b1e3e9bc.png"><img src="https://user-images.githubusercontent.com/62728109/83679095-35e3b300-a5b5-11ea-940f-dc15b1e3e9bc.png" alt="quem_ministrou" style="max-width:100%;"></a>
+<strong>Quem ministrou as aulas?</strong></p>
+<p>As aulas foram ministradas pelo <a href="https://github.com/maykbrito">Mayk Brito</a> da <a href="https://rocketseat.com.br/" rel="nofollow">Rocketseat</a></p>
+</article>
